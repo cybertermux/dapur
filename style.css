@@ -1,0 +1,160 @@
+/* Atur latar belakang dan font dasar */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Latar belakang hitam */
+    color: #fff; /* Teks putih */
+    font-family: 'Poppins', sans-serif; /* Font modern */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Kontainer utama */
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Judul utama */
+h1 {
+    font-size: 2.5em;
+    color: gold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid gold;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Gaya daftar menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Item menu */
+.menu-item {
+    background-color: #111; /* Warna lebih terang */
+    border: 2px solid gold; /* Garis emas */
+    border-radius: 10px; /* Sudut melengkung */
+    padding: 15px 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Efek hover */
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4);
+}
+
+/* Nama makanan */
+.item-name {
+    font-size: 1.8em;
+    color: gold; /* Warna emas */
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Deskripsi makanan */
+.item-description {
+    font-size: 1em;
+    color: #aaa; /* Abu-abu terang */
+    margin-bottom: 10px;
+}
+
+/* Link pada item menu */
+.menu-item a {
+    text-decoration: none; /* Hilangkan garis bawah pada link */
+    color: inherit; /* Menggunakan warna teks yang sudah ada */
+}
+
+.menu-item:hover a .item-name {
+    color: #ffd700; /* Ganti warna saat hover pada nama menu */
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid gold;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: gold;
+    color: #000;
+}
+
+/* Gaya untuk Halaman Tim Kreatif */
+.team {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: #222;
+    padding: 20px;
+    border: 2px solid gold;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.3);
+}
+
+.team-member h2 {
+    font-size: 1.5em;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.team-member .role {
+    font-size: 1em;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.team-member .description {
+    font-size: 0.9em;
+    color: #ddd;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Gaya untuk Tombol Kembali */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid gold;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: gold;
+    color: #000;
+}
+
